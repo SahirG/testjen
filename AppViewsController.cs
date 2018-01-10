@@ -6286,8 +6286,8 @@ namespace SmartAdminMvc.Controllers
 
             string eformatForMySql = combinedDate.ToString("yyyy-MM-dd HH:mm");
             string ProjectNotes = collection["ProjectNotes"].ToString();
-            string chkParallelProject = collection["chkParallelProject"].ToString();
-
+            //string chkParallelProject = collection["chkParallelProject"].ToString();
+                      
             _AID = AgencyID.Split(',');
             _ANAME = AgencyName.Split(',');
             _AEMAIL = AgencyEmail.Split(',');
