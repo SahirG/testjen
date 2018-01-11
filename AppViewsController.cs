@@ -1,5 +1,5 @@
 #region Using
-//New Line
+//New Line 1
 using AspNet.Identity.MySQL;
 using MySql.Data.MySqlClient;
 using SmartAdminMvc.Models;
