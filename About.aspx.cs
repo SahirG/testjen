@@ -11,7 +11,7 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            String a = "AA";
+            String a = "A";
             String b = "B";
             String c = "CC";
             
