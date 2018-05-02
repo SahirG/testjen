@@ -13,7 +13,7 @@ namespace WebApplication1
         {
             String a = "AA";
             String b = "BB";
-            String c = "CCc";
+            String c = "CC";
             
         }
     }
