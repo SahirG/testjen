@@ -122,6 +122,7 @@ namespace SmartAdminMvc.Controllers
         {
             try
             {
+	        var testCode = "This is Test String";
                 connectionString.connectionOpen();
 
                 string strUpdate = "UPDATE tbl_notifications SET status = 0 WHERE id = " + Convert.ToInt16(nid) + ";";
