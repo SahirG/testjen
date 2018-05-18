@@ -214,7 +214,7 @@ namespace SmartAdminMvc.Controllers
             {
                 return RedirectToAction("Login", "Account");
             }
-
+	     string NewtestString = "This is New TestString - Prasoon 18-5/1201";
             DataSet ds = new DataSet();
             List<SelectListItem> obj = new List<SelectListItem>();
             mailsend objMail = new mailsend();
