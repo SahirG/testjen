@@ -144,7 +144,7 @@ namespace SmartAdminMvc.Controllers
         {
             string countNt = "0";
             DataTable fdata = new DataTable();
-
+		var testCode2 = "This is Demo String ignore2";
             try
             {
                 connectionString.connectionOpen();
