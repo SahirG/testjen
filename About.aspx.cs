@@ -12,7 +12,7 @@ namespace WebApplication1
         protected void Page_Load(object sender, EventArgs e)
         {
             String a = "AA2";
-            String b = "BB1";
+            String b = "BB12";
             
             
         }
