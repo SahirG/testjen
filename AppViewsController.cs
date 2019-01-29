@@ -109,7 +109,7 @@ namespace SmartAdminMvc.Controllers
                 }
 
                 table.Merge(fdata);
-
+		string testCommit = "Hello ! Welcome";
                 connectionString.connectionClose();
             }
             catch (Exception ex)
