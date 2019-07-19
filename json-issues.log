@@ -1,0 +1,12 @@
+// This is a test LOG, on each line an issue serialized in JSON format
+// {"fileName":"comment.text","severity":"ERROR","lineStart":10,"description":"some comment"}
+{"fileName":"About.aspx.cs","lineRanges":[{"start":14,"end":14},{"start":14,"end":14}],"directory":"d","category":"c","type":"t","severity":"LOW","message":"msg","description":"d","packageName":"pn","moduleName":"mdl","origin":"orgn","reference":"ref","fingerprint":"fgpt","additionalProperties":"ap","id":"823b92b6-98eb-41c4-83ce-b6ec1ed6f98f"}
+{"fileName":"About.aspx.cs","severity":"ERROR","lineStart":15,"lineEnd":15,"columnStart":110,"columnEnd":120,"message":"some message","description":"some description"}
+
+{"fileName":"AppViewsController.cs", "lineRanges":[{"start":60}, {"end":60}, {}], "severity":"HIGH", "message":"an \"important\" message", "description":"an \"important\" description"}
+    
+{"fileName":"AppViewsController.cs","severity":"NORMAL", "lineStart":288, "other":value, "additional": "stuff"}
+{"fileName":"AppViewsController.cs","lineRanges":[{"start":127, "end":127, "other":10, "additional": "stuff"}, {"s":11, "e":12, "start":21, "end":22}]}
+
+ # {"fileName":"comment.text","severity":"ERROR","lineStart":10,"description":"some comment"}
+ # this is the end
