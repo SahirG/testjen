@@ -1,0 +1,84 @@
+{
+    "_class": "io.jenkins.plugins.analysis.core.restapi.ReportApi",
+    "issues": [
+        {
+            "fileName": "About.aspx.cs",
+            "lineRanges": [
+                {
+                    "start": 14,
+                    "end": 14
+                },
+                {
+                    "start": 14,
+                    "end": 14
+                }
+            ],
+            "directory": "directory",
+            "category": "category",
+            "type": "type",
+            "severity": "LOW",
+            "message": "message",
+            "description": "description",
+            "packageName": "packageName",
+            "moduleName": "moduleName",
+            "origin": "origin",
+            "reference": "reference",
+            "fingerprint": "9CED6585900DD3CFB97B914A3CEB0E79",
+            "additionalProperties": "additionalProperties",
+            "id": "e7011244-2dab-4a54-a27b-2d0697f8f813"
+        },
+        {
+            "fileName": "About.aspx.cs",
+            "severity": "ERROR",
+            "lineStart": 15,
+            "lineEnd": 15,
+            "columnStart": 210,
+            "columnEnd": 220,
+            "message": "some message",
+            "description": "some description"
+        },
+        {
+            "fileName": "AppViewsController.cs",
+            "lineRanges": [
+                {
+                    "start": 60
+                },
+                {
+                    "end": 60
+                },
+                {}
+            ],
+            "severity": "HIGH",
+            "message": "an \"important\" message",
+            "description": "an \"important\" description"
+        },
+        {
+            "fileName": "AppViewsController.cs",
+            "severity": "NORMAL",
+            "lineStart": 288,
+            "other":true,
+            "additional": "stuff"
+        },
+        {
+            "fileName": "AppViewsController.cs",
+            "lineRanges": [
+                {
+                    "start": 127,
+                    "end": 127,
+                    "other": 10,
+                    "additional": "stuff"
+                },
+                {
+                    "s": 11,
+                    "e": 12,
+                    "start": 21,
+                    "end": 22
+                }
+            ]
+        },
+        "string",
+        true,
+        42
+    ],
+    "size": 5
+}
