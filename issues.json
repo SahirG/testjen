@@ -1,5 +1,5 @@
 {
-    "_class": "io.jenkins.plugins.analysis.core.restapi.ReportApi",
+    "_class": "localclass",
     "issues": [
         {
             "fileName": "About.aspx.cs",
