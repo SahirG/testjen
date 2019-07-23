@@ -1,8 +1,8 @@
 <?xml version='1.1' encoding='UTF-8'?>
-<report plugin="analysis-model-api@5.0.0-SNAPSHOT">
+<report plugin="prudlescanner@5.0.0-SNAPSHOT">
   <issue>
     <category>I18N</category>
-    <type>HardCoded</type>
+    <type>Hardcoded</type>
     <severity>NORMAL</severity>
     <message>Hard code string found
     </message>
@@ -22,7 +22,7 @@
   </issue>
   <issue>
     <category>I18N</category>
-    <type>HardCoded</type>
+    <type>Hardcoded</type>
     <severity reference="../../issue/severity"/>
     <message>HardCoded String Found.</message>
     <lineStart>15</lineStart>
