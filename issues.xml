@@ -7,10 +7,10 @@
     <message>The method &apos;assignCategoryAndSeverity(IssueBuilder, String)&apos; has a cyclomatic complexity of
       10.
     </message>
-    <lineStart>81</lineStart>
-    <lineEnd>117</lineEnd>
-    <columnStart>5</columnStart>
-    <columnEnd>13</columnEnd>
+    <lineStart>14</lineStart>
+    <lineEnd>14</lineEnd>
+    <columnStart>1</columnStart>
+    <columnEnd>10</columnEnd>
     <lineRanges/>
     <id>f59bd476-743f-4802-b98b-f152fe78162a</id>
     <description></description>
@@ -19,7 +19,7 @@
     <moduleName>Static Analysis Model and Parsers</moduleName>
     <packageName>edu.hm.hafner.analysis.parser</packageName>
     <fileName>
-      /var/data/workspace/pipeline-analysis-model/src/main/java/edu/hm/hafner/analysis/parser/DrMemoryParser.java
+      About.aspx.cs
     </fileName>
     <fingerprint>CCB75A82B1BE6D445F404650DD7E8A58</fingerprint>
   </issue>
@@ -28,10 +28,10 @@
     <type>MethodArgumentCouldBeFinal</type>
     <severity reference="../../issue/severity"/>
     <message>Parameter &apos;categoryId&apos; is not assigned and could be declared final.</message>
-    <lineStart>101</lineStart>
-    <lineEnd>101</lineEnd>
-    <columnStart>35</columnStart>
-    <columnEnd>51</columnEnd>
+    <lineStart>15</lineStart>
+    <lineEnd>15</lineEnd>
+    <columnStart>210</columnStart>
+    <columnEnd>220</columnEnd>
     <lineRanges/>
     <id>96e03648-c989-4c87-91c4-f9f50e66027a</id>
     <description></description>
@@ -40,7 +40,7 @@
     <moduleName>Static Analysis Model and Parsers</moduleName>
     <packageName>edu.hm.hafner.analysis.parser</packageName>
     <fileName>
-      /var/data/workspace/pipeline-analysis-model/src/main/java/edu/hm/hafner/analysis/parser/EclipseXMLParser.java
+      About.aspx.cs
     </fileName>
     <fingerprint>4BD3A5D668A941F8DC5693BFDFFEFF6F</fingerprint>
   </issue>
@@ -49,10 +49,8 @@
     <type>CyclomaticComplexity</type>
     <severity reference="../../issue/severity"/>
     <message>The method &apos;decodeCategory(String)&apos; has a cyclomatic complexity of 19.</message>
-    <lineStart>101</lineStart>
-    <lineEnd>142</lineEnd>
-    <columnStart>5</columnStart>
-    <columnEnd>13</columnEnd>
+    <lineStart>60</lineStart>
+    <lineEnd>60</lineEnd>
     <lineRanges/>
     <id>34df40ee-9893-4b63-b33f-df240807b851</id>
     <description></description>
@@ -61,7 +59,7 @@
     <moduleName>Static Analysis Model and Parsers</moduleName>
     <packageName>edu.hm.hafner.analysis.parser</packageName>
     <fileName>
-      /var/data/workspace/pipeline-analysis-model/src/main/java/edu/hm/hafner/analysis/parser/EclipseXMLParser.java
+      AppViewsController.cs
     </fileName>
     <fingerprint>4BD3A5D668A941F8DC5693BFDFFEFF6F</fingerprint>
   </issue>
@@ -70,8 +68,8 @@
     <type>MethodArgumentCouldBeFinal</type>
     <severity reference="../../issue/severity"/>
     <message>Parameter &apos;problem&apos; is not assigned and could be declared final.</message>
-    <lineStart>144</lineStart>
-    <lineEnd>144</lineEnd>
+    <lineStart>127</lineStart>
+    <lineEnd>127</lineEnd>
     <columnStart>35</columnStart>
     <columnEnd>49</columnEnd>
     <lineRanges/>
@@ -82,7 +80,7 @@
     <moduleName>Static Analysis Model and Parsers</moduleName>
     <packageName>edu.hm.hafner.analysis.parser</packageName>
     <fileName>
-      /var/data/workspace/pipeline-analysis-model/src/main/java/edu/hm/hafner/analysis/parser/EclipseXMLParser.java
+      AppViewsController.cs
     </fileName>
     <fingerprint>D3513F786099B18E984C675E7302CCC7</fingerprint>
   </issue>
@@ -103,7 +101,7 @@
     <moduleName>Static Analysis Model and Parsers</moduleName>
     <packageName>edu.hm.hafner.analysis.parser</packageName>
     <fileName>
-      /var/data/workspace/pipeline-analysis-model/src/main/java/edu/hm/hafner/analysis/parser/EclipseXMLParser.java
+      AppViewsController.cs
     </fileName>
     <fingerprint>965E3125B0873557EE363823F141AE82</fingerprint>
   </issue>
@@ -124,7 +122,7 @@
     <moduleName>Static Analysis Model and Parsers</moduleName>
     <packageName>edu.hm.hafner.analysis.parser</packageName>
     <fileName>
-      /var/data/workspace/pipeline-analysis-model/src/main/java/edu/hm/hafner/analysis/parser/EclipseXMLParser.java
+      AppViewsController.cs
     </fileName>
     <fingerprint>983589560DA4AD6C4E30D1892EADB6E6</fingerprint>
   </issue>
@@ -145,7 +143,7 @@
     <moduleName>Static Analysis Model and Parsers</moduleName>
     <packageName>edu.hm.hafner.analysis.parser</packageName>
     <fileName>
-      /var/data/workspace/pipeline-analysis-model/src/main/java/edu/hm/hafner/analysis/parser/EclipseXMLParser.java
+      AppViewsController.cs
     </fileName>
     <fingerprint>83F8964BA63C7C0FD43DCFBCAF66C31A</fingerprint>
   </issue>
@@ -166,7 +164,7 @@
     <moduleName>Static Analysis Model and Parsers</moduleName>
     <packageName>edu.hm.hafner.analysis.parser</packageName>
     <fileName>
-      /var/data/workspace/pipeline-analysis-model/src/main/java/edu/hm/hafner/analysis/parser/EclipseXMLParser.java
+      AppViewsController.cs
     </fileName>
     <fingerprint>DAD5EB0F385F4C1333B5AC08470FF412</fingerprint>
   </issue>
@@ -187,7 +185,7 @@
     <moduleName>Static Analysis Model and Parsers</moduleName>
     <packageName>edu.hm.hafner.analysis.parser</packageName>
     <fileName>
-      /var/data/workspace/pipeline-analysis-model/src/test/java/edu/hm/hafner/analysis/parser/EclipseSharedChecks.java
+      AppViewsController.cs
     </fileName>
     <fingerprint>461F8ED62D1B640F8599A458B90A4CAC</fingerprint>
   </issue>
