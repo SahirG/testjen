@@ -1,37 +1,32 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <report plugin="analysis-model-api@5.0.0-SNAPSHOT">
   <issue>
-    <category>Design</category>
-    <type>CyclomaticComplexity</type>
+    <category>I18N</category>
+    <type>HardCoded</type>
     <severity>NORMAL</severity>
-    <message>The method &apos;assignCategoryAndSeverity(IssueBuilder, String)&apos; has a cyclomatic complexity of
-      10.
+    <message>Hard code string found
     </message>
     <lineStart>14</lineStart>
     <lineEnd>14</lineEnd>
-    <columnStart>1</columnStart>
-    <columnEnd>10</columnEnd>
     <lineRanges/>
     <id>f59bd476-743f-4802-b98b-f152fe78162a</id>
     <description></description>
     <reference>41</reference>
     <origin>pmd</origin>
-    <moduleName>Static Analysis Model and Parsers</moduleName>
-    <packageName>edu.hm.hafner.analysis.parser</packageName>
+    <moduleName>P-I18N Scan</moduleName>
+    <packageName>PrudleSCanner</packageName>
     <fileName>
       About.aspx.cs
     </fileName>
     <fingerprint>CCB75A82B1BE6D445F404650DD7E8A58</fingerprint>
   </issue>
   <issue>
-    <category>Code Style</category>
-    <type>MethodArgumentCouldBeFinal</type>
+    <category>I18N</category>
+    <type>HardCoded</type>
     <severity reference="../../issue/severity"/>
-    <message>Parameter &apos;categoryId&apos; is not assigned and could be declared final.</message>
+    <message>HardCoded String Found.</message>
     <lineStart>15</lineStart>
     <lineEnd>15</lineEnd>
-    <columnStart>210</columnStart>
-    <columnEnd>220</columnEnd>
     <lineRanges/>
     <id>96e03648-c989-4c87-91c4-f9f50e66027a</id>
     <description></description>
