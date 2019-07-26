@@ -9,7 +9,6 @@
     <lineStart>14</lineStart>
     <lineEnd>14</lineEnd>
     <lineRanges/>
-    <origin>pmd</origin>
     <moduleName>P-I18N Scan</moduleName>
     <packageName>PrudleScanner</packageName>
     <fileName>
@@ -24,16 +23,11 @@
     <lineStart>15</lineStart>
     <lineEnd>15</lineEnd>
     <lineRanges/>
-    <id>96e03648-c989-4c87-91c4-f9f50e66027a</id>
-    <description></description>
-    <reference>41</reference>
-    <origin>pmd</origin>
     <moduleName>P-I18N Scan</moduleName>
     <packageName>PrudleScanner</packageName>
     <fileName>
       About.aspx.cs
     </fileName>
-    <fingerprint>4BD3A5D668A941F8DC5693BFDFFEFF6F</fingerprint>
   </issue>
   <issue>
     <category>I18N</category>
@@ -43,16 +37,11 @@
     <lineStart>60</lineStart>
     <lineEnd>60</lineEnd>
     <lineRanges/>
-    <id>34df40ee-9893-4b63-b33f-df240807b851</id>
-    <description></description>
-    <reference>41</reference>
-    <origin>pmd</origin>
     <moduleName>P-I18N Scan</moduleName>
     <packageName>PrudleScanner</packageName>
     <fileName>
       AppViewsController.cs
     </fileName>
-    <fingerprint>4BD3A5D668A941F8DC5693BFDFFEFF6F</fingerprint>
   </issue>
   <issue>
     <category>I18N</category>
@@ -61,19 +50,12 @@
     <message>Parameter &apos;problem&apos; is not assigned and could be declared final.</message>
     <lineStart>127</lineStart>
     <lineEnd>127</lineEnd>
-    <columnStart>35</columnStart>
-    <columnEnd>49</columnEnd>
     <lineRanges/>
-    <id>4dd61c84-3dec-4482-abec-cc0652fbee91</id>
-    <description></description>
-    <reference>41</reference>
-    <origin>pmd</origin>
     <moduleName>P-I18N Scan</moduleName>
     <packageName>PrudleScanner</packageName>
     <fileName>
       AppViewsController.cs
     </fileName>
-    <fingerprint>D3513F786099B18E984C675E7302CCC7</fingerprint>
   </issue>
   <issue>
     <category>I18N</category>
@@ -82,19 +64,12 @@
     <message>Parameter &apos;problem&apos; is not assigned and could be declared final.</message>
     <lineStart>154</lineStart>
     <lineEnd>154</lineEnd>
-    <columnStart>36</columnStart>
-    <columnEnd>50</columnEnd>
     <lineRanges/>
-    <id>16d632ed-20e9-44fb-a219-ffa449edb33f</id>
-    <description></description>
-    <reference>41</reference>
-    <origin>pmd</origin>
     <moduleName>P-I18N Scan</moduleName>
     <packageName>PrudleScanner</packageName>
     <fileName>
       AppViewsController.cs
     </fileName>
-    <fingerprint>965E3125B0873557EE363823F141AE82</fingerprint>
   </issue>
   <issue>
     <category>I18N</category>
@@ -103,38 +78,24 @@
     <message>Parameter &apos;problem&apos; is not assigned and could be declared final.</message>
     <lineStart>159</lineStart>
     <lineEnd>159</lineEnd>
-    <columnStart>37</columnStart>
-    <columnEnd>51</columnEnd>
     <lineRanges/>
-    <id>341bf21f-b96d-408c-a7f0-a21336d31d4d</id>
-    <description></description>
-    <reference>41</reference>
-    <origin>pmd</origin>
     <fileName>
       AppViewsController.cs
     </fileName>
-    <fingerprint>983589560DA4AD6C4E30D1892EADB6E6</fingerprint>
   </issue>
   <issue>
     <category>I18N</category>
-    <type>Fucntion</type>
+    <type>Function</type>
     <severity reference="../../issue/severity"/>
     <message>Parameter &apos;problem&apos; is not assigned and could be declared final.</message>
     <lineStart>167</lineStart>
     <lineEnd>167</lineEnd>
-    <columnStart>39</columnStart>
-    <columnEnd>53</columnEnd>
     <lineRanges/>
-    <id>c5df1655-6395-4e44-aaa3-7a73fc9c0a09</id>
-    <description></description>
-    <reference>41</reference>
-    <origin>pmd</origin>
     <moduleName>P-I18N Scan</moduleName>
     <packageName>PrudleScanner</packageName>
     <fileName>
       AppViewsController.cs
     </fileName>
-    <fingerprint>83F8964BA63C7C0FD43DCFBCAF66C31A</fingerprint>
   </issue>
   <issue>
     <category>I18N</category>
@@ -143,19 +104,12 @@
     <message>Parameter &apos;problem&apos; is not assigned and could be declared final.</message>
     <lineStart>182</lineStart>
     <lineEnd>182</lineEnd>
-    <columnStart>38</columnStart>
-    <columnEnd>52</columnEnd>
     <lineRanges/>
-    <id>5d88411f-f5cb-4787-8886-9f162e659ab8</id>
-    <description></description>
-    <reference>41</reference>
-    <origin>pmd</origin>
     <moduleName>P-I18N Scan</moduleName>
     <packageName>PrudleScanner</packageName>
     <fileName>
       AppViewsController.cs
     </fileName>
-    <fingerprint>DAD5EB0F385F4C1333B5AC08470FF412</fingerprint>
   </issue>
   <issue>
     <category>I18N</category>
@@ -164,17 +118,9 @@
     <message>Parameter &apos;warnings&apos; is not assigned and could be declared final.</message>
     <lineStart>24</lineStart>
     <lineEnd>24</lineEnd>
-    <columnStart>33</columnStart>
-    <columnEnd>47</columnEnd>
     <lineRanges/>
-    <id>0e2fc0ab-c8a1-4d6a-9730-30f1863f17de</id>
-    <description></description>
-    <reference>41</reference>
-    <origin>pmd</origin>
-    <moduleName>Static Analysis Model and Parsers</moduleName>
     <fileName>
       AppViewsController.cs
     </fileName>
-    <fingerprint>461F8ED62D1B640F8599A458B90A4CAC</fingerprint>
   </issue>
 </report>
