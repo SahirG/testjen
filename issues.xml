@@ -12,7 +12,7 @@
     <moduleName>P-I18N Scan</moduleName>
     <packageName>PrudleScanner</packageName>
     <fileName>
-      /var/data/workspace/About.aspx.cs
+      About1.cs
     </fileName>
   </issue>
   <issue>
