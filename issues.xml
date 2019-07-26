@@ -8,7 +8,6 @@
     </message>
     <lineStart>14</lineStart>
     <lineEnd>14</lineEnd>
-    <lineRanges/>
     <moduleName>P-I18N Scan</moduleName>
     <packageName>PrudleScanner</packageName>
     <fileName>
@@ -22,7 +21,6 @@
     <message>HardCoded String Found.</message>
     <lineStart>15</lineStart>
     <lineEnd>15</lineEnd>
-    <lineRanges/>
     <moduleName>P-I18N Scan</moduleName>
     <packageName>PrudleScanner</packageName>
     <fileName>
