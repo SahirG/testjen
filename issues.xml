@@ -9,16 +9,12 @@
     <lineStart>14</lineStart>
     <lineEnd>14</lineEnd>
     <lineRanges/>
-    <id>f59bd476-743f-4802-b98b-f152fe78162a</id>
-    <description></description>
-    <reference>41</reference>
     <origin>pmd</origin>
     <moduleName>P-I18N Scan</moduleName>
     <packageName>PrudleScanner</packageName>
     <fileName>
       About.aspx.cs
     </fileName>
-    <fingerprint>CCB75A82B1BE6D445F404650DD7E8A58</fingerprint>
   </issue>
   <issue>
     <category>I18N</category>
