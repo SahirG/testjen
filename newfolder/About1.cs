@@ -16,7 +16,7 @@ namespace WebApplication1
 
             string c = "Hello";
             
-            string d = "NE1";       
+            string d = "NEN1";       
         }
     }
 }
