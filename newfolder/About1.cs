@@ -13,6 +13,8 @@ namespace WebApplication1
         {
             String a = "AA2111";
             String b = "BB12111";
+
+            string c = "Hello";
             
             
         }
