@@ -17,6 +17,8 @@ namespace WebApplication1
             string c = "Hello";
             
             string d = "NEN1M";       
+            
+            string e = DateTime.now();
         }
     }
 }
