@@ -16,7 +16,7 @@ namespace WebApplication1
 
             string c = "Hello";
             
-            string d = "ASP NEN1M";       
+            string d = "ASP NEW";       
             
             string e = DateTime.now();
 
