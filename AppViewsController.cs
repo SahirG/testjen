@@ -57,9 +57,7 @@ namespace SmartAdminMvc.Controllers
         string fileName = string.Empty;
 		
 		
-	string testStr = "Hello ! Welcome";
 	
-	string testStr = "Hello ! Welcome in demo	";
         prudleConfigureTaskEntities Configtask = new prudleConfigureTaskEntities();
 
         public ActionResult Blog()
