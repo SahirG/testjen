@@ -57,7 +57,7 @@ namespace SmartAdminMvc.Controllers
         string fileName = string.Empty;
 		
 		
-	
+	String lbelForget = "Forget password ? "
         prudleConfigureTaskEntities Configtask = new prudleConfigureTaskEntities();
 
         public ActionResult Blog()
