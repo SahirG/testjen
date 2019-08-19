@@ -1,4 +1,4 @@
-using System;
+    using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -19,6 +19,8 @@ namespace WebApplication1
             string d = "ASP NEW1";       
             
             string e = DateTime.now();
+
+            string g = "NEw Test String";
 
         }
     }
