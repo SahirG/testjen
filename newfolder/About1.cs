@@ -24,6 +24,9 @@ namespace WebApplication1
             
             string h = "Test case 2 warnings plugin";
 
+            string i = "Test case 3 ";
+            string j = "Test Case 4";
+
         }
     }
 }
