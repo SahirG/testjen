@@ -21,6 +21,8 @@ namespace WebApplication1
             string e = DateTime.now();
 
             string g = "NEw Test String";
+            
+            string h = "Test case 2 warnings plugin";
 
         }
     }
