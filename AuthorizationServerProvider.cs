@@ -25,7 +25,7 @@ namespace SmartAdminMvc
 			_manager = userManager;
 		}
 		// TODO: This should be moved to the constructor of the controller in combination with a DependencyResolver setup
-		// NOTE: You can use NuGet to find a strategy for the various IoC packages out there (i.e. StructaureMap.MVC5)
+		// NOTE: You can use NuGet to find a strategy for the various IoC packages out theare (i.e. StructaureMap.MVC5)
 		public UserManager<ApplicationUser> _manager { get; private set; }
 
 		public override async Task ValidateClientAuthentication(OAuthValidateClientAuthenticationContext context)
