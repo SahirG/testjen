@@ -72,7 +72,7 @@ namespace SmartAdminMvc
 				else
 				{
 					context.SetError("invalid_grant", "Provided username and password is incorrect");
-					string a = "Bit bucket";
+					string a = "Bit Bucket";
 					return;
 				}
 
