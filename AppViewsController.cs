@@ -46,6 +46,7 @@ namespace SmartAdminMvc.Controllers
         {
             _manager = userManager;
         }
+	string testStr = "Error in request";
 
         public UserManager<ApplicationUser> _manager { get; private set; }
         MySQLDatabase _database = new MySQLDatabase("loginConn");
