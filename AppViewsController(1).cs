@@ -41,6 +41,7 @@ namespace SmartAdminMvc.Controllers
     {
         public AppViewsController() : this(new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new ApplicationDbContext()))) { }
 
+        String testString = "Error in your Input";
         public AppViewsController(UserManager<ApplicationUser> userManager)
         {
             _manager = userManager;
