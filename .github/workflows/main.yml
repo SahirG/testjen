@@ -20,9 +20,9 @@ jobs:
         chmod +x ./bin/PrudleScan.exe
         # This command finds the latest checked-in file in the repository
         latest_file=$(git log -1 --name-only --pretty=format:'' | grep -E '\.exe$' | head -n 1)
-        echo "::set-output name=latest_file::$latest_file"
+        echo "LATEST_FILE=${latest_file}" >> $GITHUB_ENV
 
     - name: Run Third-Party Executable
       run: |
         # Use the latest checked-in file as a parameter for your executable
-        "./bin/PrudleScan.exe" -file "${{ steps.find_file.outputs.latest_file }}" -config "./config/PrudleConfig.xml" -output "./output"
+        "./bin/PrudleScan.exe" -file "${{ env.LATEST_FILE }}" -config "./config/PrudleConfig.xml" -output "./output"
