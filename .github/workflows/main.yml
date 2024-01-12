@@ -16,6 +16,8 @@ jobs:
     - name: Find latest checked-in file
       id: find_file
       run: |
+        ls -l ./bin/PrudleScan.exe
+        chmod +x ./bin/PrudleScan.exe
         # This command finds the latest checked-in file in the repository
         latest_file=$(git log -1 --name-only --pretty=format:'' | grep -E '\.exe$' | head -n 1)
         echo "::set-output name=latest_file::$latest_file"
@@ -23,4 +25,4 @@ jobs:
     - name: Run Third-Party Executable
       run: |
         # Use the latest checked-in file as a parameter for your executable
-        "bin/PrudleScan.exe" "${{ steps.find_file.outputs.latest_file }}"
+        "./bin/PrudleScan.exe" "${{ steps.find_file.outputs.latest_file }}"
