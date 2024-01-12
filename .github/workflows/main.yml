@@ -25,4 +25,4 @@ jobs:
     - name: Run Third-Party Executable
       run: |
         # Use the latest checked-in file as a parameter for your executable
-        "./bin/PrudleScan.exe" "${{ steps.find_file.outputs.latest_file }}"
+        "./bin/PrudleScan.exe" -file "${{ steps.find_file.outputs.latest_file }}"
