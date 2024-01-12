@@ -13,7 +13,7 @@ namespace WebApplication1
 
     public partial class About
     {
-        string a = "Hello";
+        string a = "Hello12";
         string b = "Test123";
     }
 }
