@@ -25,4 +25,4 @@ jobs:
     - name: Run Third-Party Executable
       run: |
         # Use the latest checked-in file as a parameter for your executable
-        "./bin/PrudleScan.exe" -file "${{ steps.find_file.outputs.latest_file }}" -config "./config/PrudleConfig.xml"
+        "./bin/PrudleScan.exe" -file "${{ steps.find_file.outputs.latest_file }}" -config "./config/PrudleConfig.xml" -output "./output"
