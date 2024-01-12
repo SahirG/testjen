@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Version>1</Version>
+  <ReportServer>
+    <PrudleURL>http://test2.prudlelabs.com</PrudleURL>
+    <PrudlePortNo>80</PrudlePortNo>
+    <PrudleLoginUserName>orgprudle@gmail.com</PrudleLoginUserName>
+    <PrudleLoginPassword>initial1</PrudleLoginPassword>
+    <ProjectID>230</ProjectID>
+  </ReportServer>
+  <TMSIntegration>
+    <Server>
+      <Name>TMS</Name>
+      <ServerConfig>
+        <PrudleURL>http://test2.prudlelabs.com</PrudleURL>
+        <PrudlePortNo>80</PrudlePortNo>
+        <PrudleLoginUserName>orgprudle@gmail.com</PrudleLoginUserName>
+        <PrudleLoginPassword>initial1</PrudleLoginPassword>
+        <ProjectID>230</ProjectID>
+      </ServerConfig>
+    </Server>
+  </TMSIntegration>
+  <LicenseFile></LicenseFile>
+  <ExternalizeFileType cs=".resx" aspx=".resx" cpp=".properties" java=".properties" html=".properties" cshtml=".properties" js=".properties" ts=".json" jsx=".properties" jsp=".properties" php=".properties" py=".properties" sql=".properties" />
+  <EmailConfig>
+    <Smtp></Smtp>
+    <FromEmail></FromEmail>
+    <Password></Password>
+    <ToEmail></ToEmail>
+  </EmailConfig>
+  <ReplaceString check="False" />
+  <ResourceFunction value="Resource.getstring(&quot;strkey&quot;)" />
+  <ResourceKey value="" />
+  <ReplaceHardcodedString>pse13n</ReplaceHardcodedString>
+  <ExternalizeMethod>Prudle_Localize</ExternalizeMethod>
+  <ExternalizeKey>Default</ExternalizeKey>
+  <DllName></DllName>
+  <ClassName></ClassName>
+  <KeepOriginalCodeAsComment></KeepOriginalCodeAsComment>
+  <ExternalizeFilePath>C:\Prudle Labs Pvt. Ltd\Prudle-I18N CLI\Output</ExternalizeFilePath>
+  <Jenkins>
+    <WarningsNGPluginReportpath></WarningsNGPluginReportpath>
+    <FailThreshold issuetype="Hardcoded|Function|SQL|URL" threshold="" />
+  </Jenkins>
+  <BitBucket>
+    <BitBucketRepoPath>https://bitbucket.org/prudlelab/i18ntestcodes/src/master/</BitBucketRepoPath>
+  </BitBucket>
+  <Jira>
+     
+      <JiraUrl>https://prudlelabs.atlassian.net/</JiraUrl>
+     
+      <JiraUserName>sahir.gulati@prudlelabs.com</JiraUserName>
+    
+      <JiraAuthPass>Ep019C8G9PfUwzhoSdUs70E1</JiraAuthPass>
+     
+      <JiraProjectKey>I18N</JiraProjectKey>
+ 
+ </Jira>
+  <DatabaseConnection type="MySQL" connectionstring="" />
+  <ExternalizeFileNameType>Default</ExternalizeFileNameType>
+  <ExternalizeCustomFileName>Default</ExternalizeCustomFileName>
+  <ProjectName>testproject</ProjectName>
+  <Debug>false</Debug>
+</Configuration>
