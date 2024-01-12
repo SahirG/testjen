@@ -37,7 +37,7 @@
   <DllName></DllName>
   <ClassName></ClassName>
   <KeepOriginalCodeAsComment></KeepOriginalCodeAsComment>
-  <ExternalizeFilePath>C:\Prudle Labs Pvt. Ltd\Prudle-I18N CLI\Output</ExternalizeFilePath>
+  <ExternalizeFilePath>./Output</ExternalizeFilePath>
   <Jenkins>
     <WarningsNGPluginReportpath></WarningsNGPluginReportpath>
     <FailThreshold issuetype="Hardcoded|Function|SQL|URL" threshold="" />
@@ -46,15 +46,10 @@
     <BitBucketRepoPath>https://bitbucket.org/prudlelab/i18ntestcodes/src/master/</BitBucketRepoPath>
   </BitBucket>
   <Jira>
-     
       <JiraUrl>https://prudlelabs.atlassian.net/</JiraUrl>
-     
       <JiraUserName>sahir.gulati@prudlelabs.com</JiraUserName>
-    
       <JiraAuthPass>Ep019C8G9PfUwzhoSdUs70E1</JiraAuthPass>
-     
       <JiraProjectKey>I18N</JiraProjectKey>
- 
  </Jira>
   <DatabaseConnection type="MySQL" connectionstring="" />
   <ExternalizeFileNameType>Default</ExternalizeFileNameType>
