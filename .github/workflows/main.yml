@@ -3,7 +3,7 @@ name: Run Third-Party Executable
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   run_executable:
@@ -24,4 +24,5 @@ jobs:
       run: |
         # Use the latest checked-in file as a parameter for your executable
         # Replace 'your_executable.exe' with the actual name of your executable
+        # Quote the filename to handle spaces
         ./bin/PrudleScan.exe "${{ steps.find_file.outputs.latest_file }}"
