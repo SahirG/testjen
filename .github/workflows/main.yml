@@ -13,12 +13,16 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Run Third-Party Executable
-      id: find_file
+    - name: Find latest checked-in files
       run: |
-        ls -l ./bin/PrudleScan.exe
-        chmod +x ./bin/PrudleScan.exe
-        # This command finds the latest checked-in file in the repository
+        # This command finds the latest checked-in files in the repository
         latest_files=$(git log -1 --name-only --pretty=format:'' | grep -E '\.exe$' | awk 'BEGIN { ORS="," } { print }' | tr -d '\n' | sed 's/,$//')
-        echo "LATEST_FILES=${latest_files}" >> $GITHUB_ENV      
+        echo "LATEST_FILES=${latest_files}" >> $GITHUB_ENV
+        cat $GITHUB_ENV
+
+    - name: Run Third-Party Executable
+      run: |
+        # Use the latest checked-in files as a parameter for your executable
+        # Replace 'your_executable.exe' with the actual name of your executable
+        echo "Using files: $LATEST_FILES"
         "./bin/PrudleScan.exe" -files "${LATEST_FILES}" -config "./config/PrudleConfig.xml" -output "./output"
