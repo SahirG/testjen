@@ -19,6 +19,6 @@ jobs:
         ls -l ./bin/PrudleScan.exe
         chmod +x ./bin/PrudleScan.exe
         # This command finds the latest checked-in file in the repository
-        latest_files=$(git log -1 --name-only --pretty=format:'' | grep -E '\.exe$' | tr '\n' ',' | sed 's/,$//')
-        echo "::set-output name=latest_files::$latest_files"        
-        "./bin/PrudleScan.exe" -files "${{ steps.find_files.outputs.latest_files }}" -config "./config/PrudleConfig.xml" -output "./output"
+        latest_files=$(git log -1 --name-only --pretty=format:'' | grep -E '\.exe$' | awk 'BEGIN { ORS="," } { print }' | tr -d '\n' | sed 's/,$//')
+        echo "LATEST_FILES=${latest_files}" >> $GITHUB_ENV      
+        "./bin/PrudleScan.exe" -files "${LATEST_FILES}" -config "./config/PrudleConfig.xml" -output "./output"
