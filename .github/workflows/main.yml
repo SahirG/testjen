@@ -12,11 +12,12 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-
+      with:
+         fetch-depth: 0
     - name: Find latest checked-in files
       run: |
         # This command finds the latest checked-in files in the repository
-        latest_files=$(git diff --name-only ${{ github.sha }}^1 ${{ github.sha }} | paste -s -d ',')
+        latest_files=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | paste -s -d ',')
         echo "LATEST_FILES=${latest_files}" >> $GITHUB_ENV
         cat $GITHUB_ENV
 
