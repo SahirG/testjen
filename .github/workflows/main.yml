@@ -25,4 +25,6 @@ jobs:
         # Use the latest checked-in files as a parameter for your executable
         # Replace 'your_executable.exe' with the actual name of your executable
         echo "Using files: $LATEST_FILES"
+        ls -l ./bin/PrudleScan.exe
+        chmod +x ./bin/PrudleScan.exe
         "./bin/PrudleScan.exe" -files "${LATEST_FILES}" -config "./config/PrudleConfig.xml" -output "./output"
