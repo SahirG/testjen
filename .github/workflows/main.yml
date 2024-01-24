@@ -16,7 +16,7 @@ jobs:
     - name: Find latest checked-in files
       run: |
         # This command finds the latest checked-in files in the repository
-        latest_files=$(git diff --name-only --diff-filter=AMCR --pretty=format:'' HEAD^ HEAD | paste -s -d ',' -)
+        latest_files=$(git log -1 --name-only --pretty=format:'' | tr '\n' ',')
         echo "LATEST_FILES=${latest_files}" >> $GITHUB_ENV
         cat $GITHUB_ENV
 
