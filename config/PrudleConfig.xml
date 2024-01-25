@@ -48,7 +48,7 @@
   <Jira>
       <JiraUrl>https://prudlelabs.atlassian.net/</JiraUrl>
       <JiraUserName>sahir.gulati@prudlelabs.com</JiraUserName>
-      <JiraAuthPass>Ep019C8G9PfUwzhoSdUs70E1</JiraAuthPass>
+      <JiraAuthPass>ATATT3xFfGF0U4krdBm-N5of6s6bx6szyMiPVnvaEWqTazFqrxXojpLWje07VDYmLLpzU4zM4UnsXzUZosNHCqN1sPT0Ox8V0AlJl-rkpK5U0EeYLclGXMnxQd72y0nEKKAMjMPJWdg920lQDCuwbZsKPwu5Y2MuxqtQkB2DB85naM6UBWrM5H4=027C842C</JiraAuthPass>
       <JiraProjectKey>I18N</JiraProjectKey>
  </Jira>
   <DatabaseConnection type="MySQL" connectionstring="" />
