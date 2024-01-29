@@ -22,7 +22,7 @@ public class AdminLogin extends JFrame {
 	private JPanel contentPane;
 	private JTextField textField;
 	private JPasswordField passwordField;
-        public static final String MYSTR2 = "str2 test";
+        public static final String MYSTR2 = "string test";
 
 
 	/**
