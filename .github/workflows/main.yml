@@ -18,6 +18,12 @@ jobs:
       run: |
         # This command finds the latest checked-in files in the repository
         latest_files=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | sed 's/^/.\//;s/$/,/' | paste -s -d ',')
+        
+        # Check if there's only one file, then remove the trailing comma
+        if [ "$(echo "$latest_files" | tr -cd ',' | wc -c)" -eq 1 ]; then
+          latest_files=$(echo "$latest_files" | sed 's/,$//')
+        fi
+        
         echo "LATEST_FILES=${latest_files}" >> $GITHUB_ENV
         cat $GITHUB_ENV
 
