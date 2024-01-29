@@ -17,14 +17,8 @@ jobs:
     - name: Find latest checked-in files
       run: |
         # This command finds the latest checked-in files in the repository
-        latest_files=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | sed 's/^/.\//;s/$/,/' | paste -s -d ',')
-
-        # Remove any consecutive commas
-        latest_files=$(echo "$latest_files" | sed 's/,\+/,/g')
-
-         # Remove trailing comma, if any
-        latest_files=$(echo "$latest_files" | sed 's/,$//')
-        
+        latest_files=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | sed -e 's/^/.\//' -e 's/$/,/' | paste -s -d ',' | sed 's/,$//')
+   
         echo "LATEST_FILES=${latest_files}" >> $GITHUB_ENV
         cat $GITHUB_ENV
 
