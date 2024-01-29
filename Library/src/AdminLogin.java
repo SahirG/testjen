@@ -51,7 +51,7 @@ public class AdminLogin extends JFrame {
 		setContentPane(contentPane);
 		
 		JLabel lblAdminLoginForm = new JLabel("Admin Login Form");
-		public static String MYSTR2 = "string test new";
+		public static FINAL String MYSTR2 = "string test new";
 		lblAdminLoginForm.setForeground(Color.GRAY);
 		lblAdminLoginForm.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		
