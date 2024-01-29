@@ -34,7 +34,7 @@ jobs:
         echo "Using files: $LATEST_FILES"
         ls -l ./bin/PrudleScan.exe
         chmod +x ./bin/PrudleScan.exe
-        if [ "$(echo "$latest_files" | tr -cd ',' | wc -c)" -eq 1 ]; then
+        if [ "$(echo "$LATEST_FILES" | wc -c)" -eq 1 ]; then
            "./bin/PrudleScan.exe" -file "${LATEST_FILES}" -config "./config/PrudleConfig.xml" -output "./output"
         else 
            "./bin/PrudleScan.exe" -files "${LATEST_FILES}" -config "./config/PrudleConfig.xml" -output "./output"  
