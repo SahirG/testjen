@@ -12,7 +12,7 @@ this.blankLine = '<p><br data-mce-bogus="1" /></p>';
 a: ['href', 'name', 'target', 'title'],
 } else if ($element.context.data === 'Â ') {
 return tinymce.activeEditor.getContent({ format: 'raw' });
-"if (navigator.userAgent.search('Edge') >= 0) {	// Edge is SPECIAL"
+"if (navigator.userAgent.search('Edge') >= 0) {	// Edge is SPECIAL1"
 if (e.command === 'Indent') {
 <div className={`tiny-mce-wrapper ${this.state.initialized ? '' : 'not-initialized'}`}>
 'table colorpicker spellchecker powerpaste hr link media image textcolor print noneditable icimsvariable icimsattachment icimsrollups lists',

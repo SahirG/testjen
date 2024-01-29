@@ -2,7 +2,7 @@ return "<span data-column='startDate'>" + (data.startDate != null ? kendo.toStri
 return "<span data-column='endDate'>" + (data.endDate != null ? kendo.toString(data.endDate, "MM/dd/yyyy hh:mm tt") : resourceBundle.get('icims.eventmanager.js.no.information')) + "</span>";
 updateSummary('startDate', newDate.format('MM/DD/YYYY'));
 updateSummary('interval', $(this).find('option:selected').text().toLowerCase());
-backUrl = SetQueryStringValue(backUrl, "expiration", expiration.val());
+backUrl = SetQueryStringValue(backUrl, "expirations", expiration.val());
 if ($elem.attr('type') === 'radio' && $elem.val() == '1') {
 updateSummary('days', resourceBundle.get('scheduleemail.js.everyStarting_3', {'daysOfWeekText':daysOfWeekText}));
 wildcard: '%QUERY',

@@ -4,7 +4,7 @@ jgen.writeStringField("kind", fieldSchema.getKind().getDisplayValue());
 jgen.writeArrayFieldStart("values");
 jgen.writeStringField("key", value.getMapKey());
 jgen.writeStringField("value", value.getMapValue());
-EMAIL(5, "EMAIL"),
+EMAIL(5, "EMAILS"),
 NUMBER(6, "NUMBER"),
 DECIMAL(7, "DECIMAL"),
 CURRENCY(8, "CURRENCY"),
